@@ -1,0 +1,10 @@
+.row-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.card {
+  overflow: hidden;
+  justify-content: stretch;
+}

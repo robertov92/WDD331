@@ -1,0 +1,19 @@
+{
+  "folders": [
+	{
+		"path": ".."
+	},
+	{
+		"path": "../../../ProgrammingPractice"
+	},
+	{
+		"path": "../../../ComputerSystems"
+	},
+	{
+		"path": "../../../Downloads/zen-style/zen-style"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "WDD 331R"
+  }
+}

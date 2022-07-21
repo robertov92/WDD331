@@ -1,0 +1,18 @@
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+}
+
+$prim: rgb(180, 238, 240);
+
+body {
+  background: $prim;
+  @include flexCenter();
+
+  h1 {
+    color: rgb(21, 95, 255);
+    &:hover {
+      color: black;
+    }
+  }
+}

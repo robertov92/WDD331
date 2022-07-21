@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+}
+.box{
+    width: 100vw;
+    height: 100vh;
+    background-image: 
+    repeating-radial-gradient(gray, rgb(22, 22, 22) 50px, black 50px, black 100px);
+}

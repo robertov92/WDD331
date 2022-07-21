@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #333;
+  padding: 5px;
+}
+h1,
+h2,
+li,
+.post-date {
+  font-family: "Lora", serif;
+}
+a {
+  text-decoration: none;
+  color: #666;
+}
+a:active {
+  color: #deb887;
+}
+a:hover {
+  color: #00ddff;
+}
+h1 a,
+h1 a:hover {
+  color: #333;
+  font-size: 3.5rem;
+}
+li {
+  list-style-type: none;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px;
+  font-size: 1.1em;
+}
+h1 {
+  text-align: center;
+  padding: 50px 0;
+}
+nav {
+  border-bottom: 2px solid #d0d0d0;
+  border-top: 2px solid #d0d0d0;
+}
+.post-date {
+  text-transform: uppercase;
+  text-align: right;
+  border-bottom: 2px solid #d0d0d0;
+  padding: 40px 10px 12px 0;
+  font-size: 1.4em;
+}
+section {
+  padding: 25px 15px 0 15px;
+}
+figure {
+  text-align: center;
+  margin: 15px;
+}
+img {
+  max-width: 200px;
+}
+
+@media only screen and (min-width: 600px) {
+  ul {
+    display: flex;
+    justify-content: right;
+  }
+  header {
+    padding: 0 0 20px 0;
+  }
+  article {
+    display: flex;
+  }
+  .post-date {
+    width: 25%;
+    border-bottom: none;
+    border-right: 2px solid #d0d0d0;
+  }
+  .post-content {
+    width: 70%;
+  }
+  section {
+    padding: 40px 15px 30px 15px;
+    border-bottom: 2px solid #d0d0d0;
+  }
+}
